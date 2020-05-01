@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Sanctuary Lakes, Point Cook (Melbourne, Australia)</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+</head>
+
+<body>
+<div class="wrapper4" id="top_page">
+
+<!-- inquiry button: s-->
+<div class="but_query" id="enquiry"><a href="#" onClick="goToByScroll('enq_form')"></a></div>
+<!-- inquiry button: e-->
+
+
+<header>
+<nav>
+	<ul>
+    	<li><a href="index.html" class="m1">Coburg Hill</a></li>
+        <li><a href="elmswood_estate.html" class="m2">Elmswood Estate</a></li>
+        <li><a href="golden_waters.html" class="m3">Golden Waters</a></li>
+        <li><a href="sanctuary_lakes.html" class="m4">Sanctuary Lakes</a></li>
+    </ul>
+</nav>
+<h4>Call 0815-1822775 or 0811-825739</h4>
+<div class="clr"></div>
+</header>
+
+
+
+<section>
+
+<article>
+
+	<div class="konten">
+	<h1>An affordable, private, prestige community close to Port Phillip Bay and with easy access to the City and all parts of Melbourne</h1>
+    <p>Sanctuary Lakes is just 20 minutes from Melbourne's CBD, and takes resort style living to a new level.</p>
+    
+    <p>Set around an 18-hole Greg Norman-designed golf course and featuring 168 acres of lake, the estate boasts a selection of residential land in a stunning natural environment setting, next door to a bird sanctuary, nature reserve and Port Phillip Bay.</p>
+    
+    <p>Outstanding homesites with golf course frontages, lake views and parkside locations are only part of the story. Sanctuary Lakes is a self-contained lifestyle enclave where residents are members.</p>
+	
+   
+    </div>
+	
+    <div class="listing_rumah">
+    <h1>House and Land Packages</h1>
+    	
+        <div class="sel_foto"><a href="images/sanctuary_detail/sanctuary_vogue_facade.html">
+        	<div class="th_text transp">Delta 24 Vogue <br /> AUD 668,155</div>
+        	<div class="th_con"><img src="images/sanctuary_images/delta_24_vogue.jpg"></div></a>
+        </div>
+        
+        <div class="sel_foto"><a href="images/sanctuary_detail/sanctuary_classic_facade.html">
+        	<div class="th_text transp">Rochester 26 Classic <br /> AUD 719,985</div>
+        	<div class="th_con"><img src="images/sanctuary_images/rochester_26_classic.jpg"></div></a>
+        </div>
+        <div class="sel_foto"><a href="images/sanctuary_detail/sanctuary_coastal_facade.html">
+        	<div class="th_text transp">Rochester 26 Coastal <br /> AUD 739,674</div>
+        	<div class="th_con"><img src="images/sanctuary_images/kingston_24_facade.jpg"></div></a>
+        </div>
+        <div class="sel_foto"><a href="images/sanctuary_detail/sanctuary_kingston_facade.html">
+        	<div class="th_text transp">Laguna 35 Kinston <br /> AUD 965,922</div>
+        	<div class="th_con"><img src="images/sanctuary_images/kingston_24_facade.jpg"></div></a>
+        </div>
+        
+		<div class="clr"></div>
+        
+        <span>Images are for illustrative purposes and may include upgrade items above standard specification. </span>
+        
+    </div>
+</article>
+
+
+<article class="enquiry" id="enq_form">
+	<div class="form">
+	<h1>Make an Enquiry</h1>
+	<form>
+    	<p>Please Complete the form below to submit your enquiry.</p>
+        <table cellpadding="0" cellspacing="0">
+        	<tr>
+            	<td>Full Name: </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+            	<td>Email Adress: </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+            	<td>Phone/Mobile: </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+            	<td>Message:</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+            	<td>&nbsp;</td>
+                <td><button></button></td>
+            </tr>
+            
+        </table>
+    </form>
+    </div>
+    
+    <aside>
+    	<h1>Call Us Now</h1>
+       		<strong>Razna Adella</strong><br />
+            08151 822 775 or 021 2922 3888<br />
+            <a href="mailto:razna.adella@ap.jll.com">razna.adella@ap.jll.com</a><br />
+            <br />
+            
+            <strong>Cameron McNamara</strong><br />
+            0811 825 739 or 021 5790 0656<br />
+            <a href="mailto:cameron_mc@cbn.net.id">cameron_mc@cbn.net.id</a><br />
+    </aside>
+    <div class="clr"></div>
+</article>
+
+
+
+
+
+</section>
+
+
+<footer>
+	<div><a href="#" onClick="goToByScroll('top_page')">Back To Top</a></div>
+</footer>
+
+</div>
+
+</body>
+</html>
+
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+<script type="text/javascript" src="js/s3Slider.js"></script>
+<script>
+		!window.jQuery && document.write('<script src="js/jquery-1.4.3.min.js"><\/script>');
+</script>
+<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script  type="text/javascript">
+	$(document).ready(function() {
+			$(".sel_foto a").fancybox({
+				'width'				: '80%',
+				'height'			: '80%',
+				'autoScale'			: false,
+				'transitionIn'		: 'elastic',
+				'transitionOut'		: 'elastic',
+				'type'				: 'iframe'
+			});
+
+		});
+		
+		$(function() {
+            var offset = $("#enquiry").offset();
+            var topPadding = 80;
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > offset.top) {
+                    $("#enquiry").stop().animate({
+                        marginTop: $(window).scrollTop() - offset.top + topPadding
+                    });
+                } else {
+                    $("#enquiry").stop().animate({
+                        marginTop: 80
+                    });
+                };
+            });
+ });
+ 
+		function goToByScroll(id){
+     			$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+}
+	
+</script>
